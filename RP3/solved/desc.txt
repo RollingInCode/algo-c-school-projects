@@ -1,0 +1,3 @@
+Franklyn Gonzalez - COP3502 - RP3
+
+The original quicksort algorithm was too slow for larger input lengths. I bypassed this problem with an iterative insertion sort algorithm to assist the quicksort algorithm by sorting sections of the array iteratively, reducing recursive calls. I added a triple median system for choosing the pivot, reducing the amount of comparisons for pivot values.

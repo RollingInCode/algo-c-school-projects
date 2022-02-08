@@ -1,0 +1,1 @@
+The original quicksort algorithm was too slow for larger input lengths, to bypass this problem I added an iterative insertion sort algorithm to assist the quicksort algorithm by sorting sections of the array iteratively, which reduces recursive calls. Along with that I added a triple median system for choosing the pivot, reducing the amount of comparisons for pivot values.

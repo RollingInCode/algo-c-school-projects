@@ -1,0 +1,37 @@
+﻿Build started 9/17/2014 2:24:05 PM.
+     1>Project "D:\adaboost\AdaBoost\vboost\vboost\vboost.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\vboost.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /wd4996 /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\vboost.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /wd4996 /analyze- /errorReport:prompt vboost.cpp
+         vboost.cpp
+     1>d:\adaboost\adaboost\vboost\vboost\vboost.cpp(626): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\adaboost\adaboost\vboost\vboost\vboost.cpp(475): warning C4101: 'dummy' : unreferenced local variable
+     1>d:\adaboost\adaboost\vboost\vboost\vboost.cpp(519): warning C4101: 'mean' : unreferenced local variable
+     1>d:\adaboost\adaboost\vboost\vboost\vboost.cpp(519): warning C4101: 'sigma' : unreferenced local variable
+     1>d:\adaboost\adaboost\vboost\vboost\vboost.cpp(558): warning C4101: 'mean' : unreferenced local variable
+     1>d:\adaboost\adaboost\vboost\vboost\vboost.cpp(558): warning C4101: 'sigma' : unreferenced local variable
+     1>d:\adaboost\adaboost\vboost\vboost\vboost.cpp(1466): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\adaboost\adaboost\vboost\vboost\vboost.cpp(1468): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\adaboost\adaboost\vboost\vboost\vboost.cpp(2331): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\adaboost\adaboost\vboost\vboost\vboost.cpp(2335): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\adaboost\adaboost\vboost\vboost\vboost.cpp(2336): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\adaboost\adaboost\vboost\vboost\vboost.cpp(2337): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\adaboost\adaboost\vboost\vboost\vboost.cpp(2338): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\adaboost\adaboost\vboost\vboost\vboost.cpp(2338): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\adaboost\adaboost\vboost\vboost\vboost.cpp(2344): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\adaboost\adaboost\vboost\vboost\vboost.cpp(2351): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\adaboost\adaboost\vboost\vboost\vboost.cpp(2450): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\adaboost\adaboost\vboost\vboost\vboost.cpp(2511): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\adaboost\adaboost\vboost\vboost\vboost.cpp(2511): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>d:\adaboost\adaboost\vboost\vboost\vboost.cpp(2597): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\adaboost\adaboost\vboost\vboost\vboost.cpp(2844): warning C4129: 'i' : unrecognized character escape sequence
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\adaboost\AdaBoost\vboost\Debug\vboost.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\adaboost\AdaBoost\vboost\Debug\vboost.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\adaboost\AdaBoost\vboost\Debug\vboost.lib" /MACHINE:X86 Debug\stdafx.obj
+         Debug\vboost.obj
+         vboost.vcxproj -> D:\adaboost\AdaBoost\vboost\Debug\vboost.exe
+     1>Done Building Project "D:\adaboost\AdaBoost\vboost\vboost\vboost.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.90
